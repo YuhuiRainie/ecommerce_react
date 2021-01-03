@@ -2,6 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f9e0ab3-d002-4d8a-baec-376a8a7bcc23" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.git.bfg-report/2021-01-03/22-15-01/cache-stats.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.git.bfg-report/2021-01-03/22-15-01/deleted-files.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.git.bfg-report/2021-01-03/22-15-01/object-id-map.old-new.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.git.bfg-report/2021-01-03/22-15-01/protected-dirt/6ff03b8f-HEAD.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bfg-1.13.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce.git/HEAD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce.git/config" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce.git/description" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce.git/hooks/applypatch-msg.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce.git/hooks/commit-msg.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce.git/hooks/fsmonitor-watchman.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce.git/hooks/post-update.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce.git/hooks/pre-applypatch.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce.git/hooks/pre-commit.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce.git/hooks/pre-push.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce.git/hooks/pre-rebase.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce.git/hooks/pre-receive.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce.git/hooks/prepare-commit-msg.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce.git/hooks/update.sample" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce.git/info/exclude" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce.git/objects/pack/pack-db765c3f0781a02ef93c69f384dfef77530c1add.idx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce.git/objects/pack/pack-db765c3f0781a02ef93c69f384dfef77530c1add.pack" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ecommerce.git/packed-refs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -81,7 +105,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609160984906</updated>
-      <workItem from="1609160987660" duration="60698000" />
+      <workItem from="1609160987660" duration="63121000" />
     </task>
     <servers />
   </component>
