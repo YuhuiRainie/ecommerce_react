@@ -19,7 +19,7 @@ class SignUp extends React.Component {
         }
     }
     handleSubmit = async event => {
-        console.log("hello")
+    // Create data in the database
         event.preventDefault();
         const {displayName,email,password,confirmPassword} = this.state
         if(password !== confirmPassword) {
@@ -39,9 +39,7 @@ class SignUp extends React.Component {
             console.log(e)
         }
     }
-    test = e => {
-        console.log("test sucess")
-    }
+
     handleChange = event => {
         const {name,value} = event.target;
         this.setState({[name]:value})
