@@ -16,3 +16,14 @@ export const quanlitySum =  createSelector(
                 (current,accumulation) => accumulation + current,
                 0)
 )
+export const selectHidden = createSelector(
+    [selectCart],
+    (cart) => cart.hidden
+)
+export const itemTotalPrice = createSelector(
+    [selectCartItems],
+    cartItems=>
+        cartItems.reduce(
+        (accumulatedQuantity,cartItem) => accumulatedQuantity + cartItem.quantity * cartItem.price,0
+    )
+)
