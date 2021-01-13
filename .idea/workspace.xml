@@ -2,23 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f9e0ab3-d002-4d8a-baec-376a8a7bcc23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/checkout/checkout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/user/user.selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/collection-overview/collection-overview.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/collection-overview/collection-overview.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/category/category.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/category/category.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/directory/directory-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/directory/directory-selector.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop-reducer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop-selector.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-action-type.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart-action-type.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart-action.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart-utils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.selector.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/cart/cart.selector.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/data.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/data.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/root-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,11 +57,12 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\redux\shop" />
+      <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\pages\homepage" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\firebase" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\pages\homepage" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -101,7 +103,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609160984906</updated>
       <workItem from="1609160987660" duration="82972000" />
-      <workItem from="1610190149317" duration="36797000" />
+      <workItem from="1610190149317" duration="56303000" />
     </task>
     <servers />
   </component>
