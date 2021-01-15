@@ -25,3 +25,4 @@ yarn-error.log*
 .git.bfg-report
 # api key
 /src/firebase
+/src/components/stripe-button/stripe-api-key.jsx
