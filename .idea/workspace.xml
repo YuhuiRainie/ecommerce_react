@@ -4,11 +4,7 @@
     <list default="true" id="3f9e0ab3-d002-4d8a-baec-376a8a7bcc23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/category/category.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/category/category.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/category/category.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/category/category.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/directory/directory-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/directory/directory-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/data.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/data.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-overview/collection-overview.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-overview/collection-overview.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/shop/shop-selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop-selector.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1609160984906</updated>
       <workItem from="1609160987660" duration="82972000" />
-      <workItem from="1610190149317" duration="58485000" />
+      <workItem from="1610190149317" duration="62234000" />
     </task>
     <servers />
   </component>
