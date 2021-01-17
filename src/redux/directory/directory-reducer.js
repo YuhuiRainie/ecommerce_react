@@ -19,18 +19,18 @@ const INITIAL_STATE = {
             linkUrl: 'shop/sneakers'
         },
         {
-            title: 'womens',
+            title: 'dresses',
             imageUrl: '//img.ltwebstatic.com/images3_pi/2020/12/10/16075793839cc0eda77878e14104549510d3d156a2_thumbnail_405x552.webp',
             size: 'large',
             id: 4,
-            linkUrl: 'shop/womens'
+            linkUrl: 'shop/dresses'
         },
         {
-            title: 'mens',
+            title: 'shirts',
             imageUrl: '//img.ltwebstatic.com/images3_pi/2021/01/05/160981355851801ef73f805a6b00d803c1adc5f279_thumbnail_405x552.webp',
             size: 'large',
             id: 5,
-            linkUrl: 'shop/mens'
+            linkUrl: 'shop/shirts'
         }
     ]
 }
