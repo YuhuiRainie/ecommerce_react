@@ -4,8 +4,7 @@
     <list default="true" id="3f9e0ab3-d002-4d8a-baec-376a8a7bcc23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/directory/directory-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/directory/directory-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/data.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/data.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,14 +48,14 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\assert" />
-      <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\firebase" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\public" />
       <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\redux\shop" />
       <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\pages\homepage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\assert" />
+      <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\firebase" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -123,6 +122,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
