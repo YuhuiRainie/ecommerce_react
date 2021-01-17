@@ -4,6 +4,7 @@ import {connect} from 'react-redux'
 import {selectCartItems,itemTotalPrice} from "../../redux/cart/cart.selector";
 import {createStructuredSelector} from "reselect";
 import CheckoutItem from "../../components/checkout-item/checkout-item";
+import StripeButton from "../../components/stripe-button/stripe-button";
 
 
 const Checkout = ({cartItems,total}) => {
@@ -30,6 +31,13 @@ const Checkout = ({cartItems,total}) => {
             <div className='total'>
                 <span>TOTAL:${total}</span>
             </div>
+
+            <div className='test-warning'>
+                * Please use the following test Australia credit card for paymemnt. Cvv is any 3 digital numbers and expire date can be any!
+                <br />
+                400 0003 6000 0006
+            </div>
+            <StripeButton price={total} />
         </div>
     );
 };

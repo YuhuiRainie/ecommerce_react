@@ -14,8 +14,8 @@ export const selectItemsForPreview = createSelector(
 )
 
 
-export const selectCategory = memoize(categoryUrlParam =>
+export const selectCategory = categoryUrlParam =>
     createSelector(
     [selectShopItems],
-     collections => collections[categoryUrlParam])
-);
+     collections => collections[categoryUrlParam]
+    );

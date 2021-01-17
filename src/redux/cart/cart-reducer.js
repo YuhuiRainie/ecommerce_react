@@ -1,5 +1,4 @@
 import {CartActionType} from './cart-action-type'
-import {act} from "@testing-library/react";
 import {addItemToCart,removeItemFromCart} from "./cart-utils";
 
 

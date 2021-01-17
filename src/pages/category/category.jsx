@@ -5,7 +5,7 @@ import {connect} from 'react-redux'
 import CollectionItem from "../../components/collection-item/collection-item";
 
 const Category = ({category}) => {
-    const {title,items} = category
+    const {title,items} = category;
     return (
         <div className='category-page'>
             <h2 className='title'>{title}</h2>
