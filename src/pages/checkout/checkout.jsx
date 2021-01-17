@@ -35,7 +35,7 @@ const Checkout = ({cartItems,total}) => {
             <div className='test-warning'>
                 * Please use the following test Australia credit card for paymemnt. Cvv is any 3 digital numbers and expire date can be any!
                 <br />
-                400 0003 6000 0006
+                4000 0003 6000 0006
             </div>
             <StripeButton price={total} />
         </div>
