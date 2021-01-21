@@ -3,20 +3,22 @@ import './collection-item.scss'
 import Button from "../button/button";
 import {connect} from 'react-redux';
 import {addItem} from "../../redux/cart/cart-action";
+import {Grid} from "@material-ui/core";
 
 
 const CollectionItem = ({item,addItem}) => {
     const { id, name, price, imageUrl} = item
     return (
-        <div className='collection-item' key={id}>
-            <div className='image'
-                 style={{backgroundImage:`url(${imageUrl})`}} />
-            <div className='collection-footer'>
+        <Grid container item className='collection-item' key={id} xs={12} sm={6} md={5} lg={3} >
+            <Grid container className='collection-footer' direction='row' justify='space-between' style={{width:'85%'}}>
                 <span className='name'>{name}</span>
-                <span className='price'>{price}</span>
-            </div>
-            <Button inverted onClick={()=>addItem(item)}>ADD TO CART</Button>
-        </div>
+                <span className='price'>${price}</span>
+            </Grid>
+            <div className='image'
+                 style={{backgroundImage:`url(${imageUrl})`,backgroundSize:'cover',width:'100%',height:'400px'}} />
+
+            <Button onClick={()=>addItem(item)}>ADD TO CART</Button>
+        </Grid>
     );
 };
 const mapDispatchToProps = dispatch => ({

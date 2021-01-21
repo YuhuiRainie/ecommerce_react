@@ -9,35 +9,89 @@ import CartDropdown from "../cart-dropdown/cart-dropdown";
 import {createStructuredSelector} from "reselect";
 import {selectHidden} from "../../redux/cart/cart.selector";
 import {selectCurrentUser} from "../../redux/user/user.selector";
+import {Hidden,Drawer,Button,Grid,Typography,List,ListItem,Divider,ListItemIcon} from "@material-ui/core";
+import DehazeIcon from '@material-ui/icons/Dehaze'
+import HomeIcon from '@material-ui/icons/Home';
+import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import AccountCircleIcon from '@material-ui/icons/AccountCircle';
 
 
-const Header = ({ currentUser,hidden }) => (
-    <div className='header'>
-        <Link className='logo-container' to='/'>
-            <Logo className='logo' />
-        </Link>
-        <div className='options'>
-            <Link className='option' to='/shop'>
-                SHOP
+const Header = ({ currentUser,hidden }) => {
+    const [isMenuOpen, setIsMenuOpen] = React.useState(false)
+
+    return (
+        <div className='header'>
+            <Link className='logo-container' to='/'>
+                <Logo className='logo'/>
             </Link>
-            <Link className='option' to='/shop'>
-                CONTACT
-            </Link>
-            {currentUser ? (
-                <div className='option' onClick={() => auth.signOut()}>
-                    SIGN OUT
-                </div>
-            ) : (
-                <Link className='option' to='/signin'>
-                    SIGN IN
+            <Hidden smDown>
+            <div className='options'>
+                <Link className='option' to='/'>
+                    HOME
                 </Link>
-            )}
-            <CartIcon />
-        </div>
-       {hidden?null: <CartDropdown />}
-    </div>
-);
+                <Link className='option' to='/shop'>
+                    SHOP
+                </Link>
+                {currentUser ? (
+                    <div className='option' onClick={() => auth.signOut()}>
+                        SIGN OUT
+                    </div>
+                ) : (
+                    <Link className='option' to='/signin'>
+                        SIGN IN
+                    </Link>
+                )}
+                <CartIcon/>
+            </div>
+            {hidden ? null : <CartDropdown/>}
+            </Hidden>
+            <Hidden mdUp>
+                <Grid container direction='row' justify='flex-end' alignItems='center'>
+                    <Button onClick={() => setIsMenuOpen(true)}>
+                        <DehazeIcon fontSize='large' style={{color: '#7F4F61'}}/>
+                    </Button>
+                    <Drawer anchor='top' open={isMenuOpen} onClick={() => setIsMenuOpen(false)}>
+                        <div className='options'>
+                            <List alignItems="center">
+                                <ListItem>
+                                    <ListItemIcon><HomeIcon /></ListItemIcon>
+                                    <Link className='option' to='/' style={{width:'100%'}}>
+                                        HOME
+                                    </Link>
+                                </ListItem>
+                                <Divider />
+                                <ListItem>
+                                    <ListItemIcon><ShoppingCartIcon /></ListItemIcon>
+                                    <Link className='option' to='/shop' style={{width:'100%'}}>
+                                        SHOP
+                                    </Link>
+                                </ListItem>
+                                <Divider />
+                            {currentUser ? (
+                                <ListItem>
+                                    <ListItemIcon><AccountCircleIcon /></ListItemIcon>
+                                    <div className='option' onClick={() => auth.signOut()} style={{width:'100%'}}>
+                                        SIGN OUT
+                                    </div>
+                                </ListItem>
 
+                            ) : (
+                                <ListItem>
+                                    <ListItemIcon><AccountCircleIcon /></ListItemIcon>
+                                    <Link className='option' to='/signin' style={{width:'100%'}}>
+                                        SIGN IN
+                                    </Link>
+                                </ListItem>
+
+                            )}
+                            </List>
+                        </div>
+                    </Drawer>
+                </Grid>
+            </Hidden>
+        </div>
+    );
+}
 const mapStateToProps =createStructuredSelector ({
     currentUser:selectCurrentUser,
     hidden:selectHidden

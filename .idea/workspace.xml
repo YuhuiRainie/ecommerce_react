@@ -6,8 +6,18 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/directory/directory.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/preview-collection/preview-collection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/preview-collection/preview-collection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/preview-collection/preview-collection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/preview-collection/preview-collection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/category/category.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/category/category.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/sign-in-sign-up/sign-in-sign-up.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/sign-in-sign-up/sign-in-sign-up.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -104,6 +114,7 @@
       <workItem from="1610842919360" duration="7606000" />
       <workItem from="1610851911277" duration="633000" />
       <workItem from="1610859234170" duration="13459000" />
+      <workItem from="1611103906596" duration="32665000" />
     </task>
     <servers />
   </component>
