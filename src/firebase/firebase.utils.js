@@ -34,9 +34,35 @@ export const createUserProfileDocument = async (userAuth, additionalData) => {
     return userRef;
 };
 
-export const addCollectionAndDocuments = (collectionKey,ObjectsToAdd) => {
-    const collectionRef = firestore.collection(collectionKey);
-    console.log(collectionRef)
+// export const addCollectionAndDocuments = async (collectionKey,objectsToAdd) => {
+//     const collectionRef = firestore.collection(collectionKey);
+//     console.log(collectionRef)
+//
+//     const batch = firestore.batch()
+//     objectsToAdd.forEach( obj => {
+//         const newDocRef = collectionRef.doc()
+//         batch.set(newDocRef,obj)
+//     })
+//     return  await batch.commit()
+// }
+
+export const convertCollectionsSnapshotToMap = (collections) =>{
+     const transformedCollection = collections.docs.map((doc) => {
+         const {title, items } = doc.data()
+         return {
+             routeName:encodeURI(title.toLowerCase()),
+             id:doc.id,
+             title,
+             items
+         }
+     })
+    //回调函数第一次执行时，accumulator 和currentValue的取值有两种情况：
+    // 如果调用reduce()时提供了initialValue，accumulator取值为initialValue，currentValue取数组中的第一个值；
+    // 如果没有提供 initialValue，那么accumulator取数组中的第一个值，currentValue取数组中的第二个值。
+    return transformedCollection.reduce((accumulator, collection) => {
+        accumulator[collection.title.toLowerCase()] = collection;
+        return accumulator
+    },{})
 }
 export const auth = firebase.auth();
 export const firestore = firebase.firestore();

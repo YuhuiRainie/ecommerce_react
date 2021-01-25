@@ -30,7 +30,7 @@ const INITIAL_STATE = {
             imageUrl: '//img.ltwebstatic.com/images3_pi/2021/01/05/160981355851801ef73f805a6b00d803c1adc5f279_thumbnail_405x552.webp',
             size: 'large',
             id: 5,
-            linkUrl: 'shop/shirts'
+            linkUrl: 'shop/t-shirts'
         }
     ]
 }
