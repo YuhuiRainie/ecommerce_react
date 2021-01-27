@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="577bfb20-1608-44dd-8854-1308b793524b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/with-spinner/with-spinner.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/with-spinner/with-spinner.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop-action.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/redux/shop/shop-types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/collection-overview/overview-container.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/category/category-container.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/directory/directory-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/directory/directory-reducer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/data.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/data.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop-action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop-action.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/shop/shop-selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/shop/shop-selector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
