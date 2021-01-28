@@ -9,7 +9,7 @@ import Category from "../category/category";
 import {connect} from 'react-redux'
 import {updateCollections} from "../../redux/shop/shop-action";
 import WithSpinner from '../../components/with-spinner/with-spinner'
-import {fetchCollectionsStartAsync} from "../../redux/shop/shop-action";
+import {fetchCollectionsStart} from "../../redux/shop/shop-action";
 import {createStructuredSelector} from "reselect";
 import {selectIsCollectionFetching,selectIsCollectionsLoaded} from '../../redux/shop/shop-selector'
 import CollectionOverviewContainer from '../../components/collection-overview/overview-container'
@@ -19,8 +19,8 @@ import CategoryContainer from "../category/category-container";
 class Shop extends React.Component{
 
     componentDidMount() {
-        const {fetchCollectionsStartAsync} = this.props
-        fetchCollectionsStartAsync()
+        const {fetchCollectionsStart} = this.props
+        fetchCollectionsStart()
     }
 
     render() {
@@ -40,7 +40,7 @@ class Shop extends React.Component{
 
 
 const mapDispatchToProps = dispatch => ({
-    fetchCollectionsStartAsync:() => dispatch(fetchCollectionsStartAsync())
+    fetchCollectionsStart:() => dispatch(fetchCollectionsStart())
 })
 
 export default connect(null,mapDispatchToProps)(Shop);
