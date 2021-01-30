@@ -4,8 +4,11 @@
     <list default="true" id="577bfb20-1608-44dd-8854-1308b793524b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/firebase/firebase.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user-action-type.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user-action-type.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/user/user-action.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user-action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user-reducer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/user/user-saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/user/user-saga.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -105,7 +108,7 @@
       <workItem from="1610859234170" duration="13459000" />
       <workItem from="1611103906596" duration="32665000" />
       <workItem from="1611845164255" duration="1916000" />
-      <workItem from="1611889386371" duration="13027000" />
+      <workItem from="1611889386371" duration="20234000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'backup-original-working-with-stripe' into move-data-to-firebase&#10;&#10;# Conflicts:&#10;#&#9;.eslintcache&#10;#&#9;.idea/workspace.xml">
       <created>1611407469007</created>
