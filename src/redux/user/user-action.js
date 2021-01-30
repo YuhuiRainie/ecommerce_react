@@ -23,8 +23,9 @@ export const emailSignInStart = usernameAndPassword => ({
     type:UserActionTypes.EMAIL_SIGN_IN_START,
     payload:usernameAndPassword
 })
-export const emailSignInSuccess = () => ({
-    type:UserActionTypes.EMAIL_SIGN_IN_SUCCESS
+export const emailSignInSuccess = user => ({
+    type:UserActionTypes.EMAIL_SIGN_IN_SUCCESS,
+    payload:user
 })
 export const emailSignInFailure = err => ({
     type:UserActionTypes.EMAIL_SIGN_IN_FAILURE,
