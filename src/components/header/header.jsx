@@ -53,7 +53,7 @@ const Header = ({ currentUser,hidden,signOutStart }) => {
                     </Button>
                     <Drawer anchor='top' open={isMenuOpen} onClick={() => setIsMenuOpen(false)}>
                         <div className='options'>
-                            <List alignItems="center">
+                            <List>
                                 <ListItem>
                                     <ListItemIcon><HomeIcon /></ListItemIcon>
                                     <Link className='option' to='/' style={{width:'100%'}}>
@@ -71,7 +71,7 @@ const Header = ({ currentUser,hidden,signOutStart }) => {
                             {currentUser ? (
                                 <ListItem>
                                     <ListItemIcon><AccountCircleIcon /></ListItemIcon>
-                                    <div className='option' onClick={() => signOutStart} style={{width:'100%'}}>
+                                    <div className='option' onClick={ signOutStart} style={{width:'100%',cursor:'pointer'}}>
                                         SIGN OUT
                                     </div>
                                 </ListItem>
@@ -79,7 +79,7 @@ const Header = ({ currentUser,hidden,signOutStart }) => {
                             ) : (
                                 <ListItem>
                                     <ListItemIcon><AccountCircleIcon /></ListItemIcon>
-                                    <Link className='option' to='/signin' style={{width:'100%'}}>
+                                    <Link className='option' to='/signin' style={{width:'100%',cursor:'pointer'}}>
                                         SIGN IN
                                     </Link>
                                 </ListItem>
