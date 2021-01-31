@@ -14,9 +14,10 @@ import DehazeIcon from '@material-ui/icons/Dehaze'
 import HomeIcon from '@material-ui/icons/Home';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import {signOutStart} from "../../redux/user/user-action";
 
 
-const Header = ({ currentUser,hidden }) => {
+const Header = ({ currentUser,hidden,signOutStart }) => {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false)
 
     return (
@@ -33,7 +34,7 @@ const Header = ({ currentUser,hidden }) => {
                     SHOP
                 </Link>
                 {currentUser ? (
-                    <div className='option' onClick={() => auth.signOut()}>
+                    <div className='option' onClick={signOutStart}>
                         SIGN OUT
                     </div>
                 ) : (
@@ -70,7 +71,7 @@ const Header = ({ currentUser,hidden }) => {
                             {currentUser ? (
                                 <ListItem>
                                     <ListItemIcon><AccountCircleIcon /></ListItemIcon>
-                                    <div className='option' onClick={() => auth.signOut()} style={{width:'100%'}}>
+                                    <div className='option' onClick={() => signOutStart} style={{width:'100%'}}>
                                         SIGN OUT
                                     </div>
                                 </ListItem>
@@ -96,5 +97,8 @@ const mapStateToProps =createStructuredSelector ({
     currentUser:selectCurrentUser,
     hidden:selectHidden
 });
+const mapDispatchToProps = dispatch => ({
+    signOutStart:() =>dispatch(signOutStart())
+})
 
-export default connect(mapStateToProps)(Header);
+export default connect(mapStateToProps,mapDispatchToProps)(Header);

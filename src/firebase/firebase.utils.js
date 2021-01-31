@@ -66,9 +66,12 @@ export const convertCollectionsSnapshotToMap = (collections) =>{
 }
 export const auth = firebase.auth();
 export const firestore = firebase.firestore();
+
+
 export const getCurrentUser = () => {
     return new Promise((resolve,reject)=>{
         const unsubscribe = auth.onAuthStateChanged(userAuth => {
+            // reference :https://stackoverflow.com/questions/47043188/firebase-onauthstatechanged-unsubscribe-recursion
             unsubscribe()
             resolve(userAuth)
         },reject )
