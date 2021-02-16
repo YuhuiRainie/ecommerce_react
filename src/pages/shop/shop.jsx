@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, {Component, useEffect} from 'react';
 
 
 import PreviewCollection from "../../components/preview-collection/preview-collection";
@@ -16,15 +16,15 @@ import CollectionOverviewContainer from '../../components/collection-overview/ov
 import CategoryContainer from "../category/category-container";
 
 
-class Shop extends React.Component{
+const Shop =({match,fetchCollectionsStart}) =>{
+    useEffect(() => {fetchCollectionsStart()},[fetchCollectionsStart])
+    // componentDidMount() {
+    //     const {fetchCollectionsStart} = this.props
+    //     fetchCollectionsStart()
+    // }
 
-    componentDidMount() {
-        const {fetchCollectionsStart} = this.props
-        fetchCollectionsStart()
-    }
-
-    render() {
-        const {match} = this.props;
+    // render() {
+    //     const {match} = this.props;
         return (
             <div className='shop-page'>
                 <Route exact path={`${match.path}`} component={CollectionOverviewContainer} />
@@ -32,7 +32,7 @@ class Shop extends React.Component{
 
             </div>
         );
-    }
+    // }
 
 
 

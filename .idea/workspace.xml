@@ -4,8 +4,8 @@
     <list default="true" id="577bfb20-1608-44dd-8854-1308b793524b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-in/sign-in.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/sign-up/sign-up.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -106,7 +106,8 @@
       <workItem from="1611845164255" duration="1916000" />
       <workItem from="1611889386371" duration="36389000" />
       <workItem from="1612165519403" duration="13753000" />
-      <workItem from="1612663288302" duration="6897000" />
+      <workItem from="1612663288302" duration="9128000" />
+      <workItem from="1613301194812" duration="3485000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'backup-original-working-with-stripe' into move-data-to-firebase&#10;&#10;# Conflicts:&#10;#&#9;.eslintcache&#10;#&#9;.idea/workspace.xml">
       <created>1611407469007</created>
