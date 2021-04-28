@@ -24,5 +24,10 @@ yarn-debug.log*
 yarn-error.log*
 .git.bfg-report
 # api key
-/src/firebase/*key.jsx
-/src/components/stripe-button/*key.jsx
+client/src/firebase/*key.jsx
+client/src/components/stripe-button/*key.jsx
+.env
+client/node_modules
+client/build
+client/.ide
+client/ecommerce.git

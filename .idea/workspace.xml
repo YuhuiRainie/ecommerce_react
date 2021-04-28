@@ -2,12 +2,117 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="577bfb20-1608-44dd-8854-1308b793524b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/.eslintcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/shop/shop.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce.git/HEAD" beforeDir="false" afterPath="$PROJECT_DIR$/client/ecommerce.git/HEAD" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce.git/config" beforeDir="false" afterPath="$PROJECT_DIR$/client/ecommerce.git/config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce.git/description" beforeDir="false" afterPath="$PROJECT_DIR$/client/ecommerce.git/description" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce.git/hooks/applypatch-msg.sample" beforeDir="false" afterPath="$PROJECT_DIR$/client/ecommerce.git/hooks/applypatch-msg.sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce.git/hooks/commit-msg.sample" beforeDir="false" afterPath="$PROJECT_DIR$/client/ecommerce.git/hooks/commit-msg.sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce.git/hooks/fsmonitor-watchman.sample" beforeDir="false" afterPath="$PROJECT_DIR$/client/ecommerce.git/hooks/fsmonitor-watchman.sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce.git/hooks/post-update.sample" beforeDir="false" afterPath="$PROJECT_DIR$/client/ecommerce.git/hooks/post-update.sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce.git/hooks/pre-applypatch.sample" beforeDir="false" afterPath="$PROJECT_DIR$/client/ecommerce.git/hooks/pre-applypatch.sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce.git/hooks/pre-commit.sample" beforeDir="false" afterPath="$PROJECT_DIR$/client/ecommerce.git/hooks/pre-commit.sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce.git/hooks/pre-push.sample" beforeDir="false" afterPath="$PROJECT_DIR$/client/ecommerce.git/hooks/pre-push.sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce.git/hooks/pre-rebase.sample" beforeDir="false" afterPath="$PROJECT_DIR$/client/ecommerce.git/hooks/pre-rebase.sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce.git/hooks/pre-receive.sample" beforeDir="false" afterPath="$PROJECT_DIR$/client/ecommerce.git/hooks/pre-receive.sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce.git/hooks/prepare-commit-msg.sample" beforeDir="false" afterPath="$PROJECT_DIR$/client/ecommerce.git/hooks/prepare-commit-msg.sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce.git/hooks/update.sample" beforeDir="false" afterPath="$PROJECT_DIR$/client/ecommerce.git/hooks/update.sample" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce.git/info/exclude" beforeDir="false" afterPath="$PROJECT_DIR$/client/ecommerce.git/info/exclude" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce.git/objects/pack/pack-db765c3f0781a02ef93c69f384dfef77530c1add.idx" beforeDir="false" afterPath="$PROJECT_DIR$/client/ecommerce.git/objects/pack/pack-db765c3f0781a02ef93c69f384dfef77530c1add.idx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce.git/objects/pack/pack-db765c3f0781a02ef93c69f384dfef77530c1add.pack" beforeDir="false" afterPath="$PROJECT_DIR$/client/ecommerce.git/objects/pack/pack-db765c3f0781a02ef93c69f384dfef77530c1add.pack" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ecommerce.git/packed-refs" beforeDir="false" afterPath="$PROJECT_DIR$/client/ecommerce.git/packed-refs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/logo512.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assert/butterfly.png" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assert/butterfly.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assert/crown.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assert/crown.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assert/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assert/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assert/shopping-bag.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assert/shopping-bag.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/button/button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/button/button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/button/button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/cart-dropdown/cart-dropdown.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-dropdown/cart-dropdown.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/cart-dropdown/cart-dropdown.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/cart-icon/cart-icon.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/cart-icon/cart-icon.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-item/cart-item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/cart-item/cart-item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/cart-item/cart-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/cart-item/cart-item.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/checkout-item/checkout-item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/checkout-item/checkout-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/checkout-item/checkout-item.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/collection-item/collection-item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/collection-item/collection-item.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-overview/collection-overview.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/collection-overview/collection-overview.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-overview/collection-overview.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/collection-overview/collection-overview.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/collection-overview/overview-container.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/collection-overview/overview-container.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/directory/directory.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/directory/directory.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form-input/form-input.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/form-input/form-input.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/form-input/form-input.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/form-input/form-input.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/header/header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/header/header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/header/header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/menu-item/menu-item.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/menu-item/menu-item.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/preview-collection/preview-collection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/preview-collection/preview-collection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/preview-collection/preview-collection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/preview-collection/preview-collection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/sign-in/sign-in.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-in/sign-in.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/sign-in/sign-in.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/sign-up/sign-up.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/sign-up/sign-up.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/sign-up/sign-up.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/stripe-button/stripe-button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/stripe-button/stripe-button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/with-spinner/with-spinner.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/with-spinner/with-spinner.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/with-spinner/with-spinner.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/with-spinner/with-spinner.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/firebase/firebase.utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/firebase/firebase.utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/category/category-container.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/category/category-container.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/category/category.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/category/category.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/category/category.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/category/category.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/checkout/checkout.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/checkout/checkout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/checkout/checkout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/homepage/homepage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/homepage/homepage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/shop/shop.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/shop/shop.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/sign-in-sign-up/sign-in-sign-up.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/sign-in-sign-up/sign-in-sign-up.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/sign-in-sign-up/sign-in-sign-up.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/sign-in-sign-up/sign-in-sign-up.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-action-type.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/cart/cart-action-type.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-action.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/cart/cart-action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/cart/cart-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/cart/cart-saga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart-utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/cart/cart-utils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/cart/cart.selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/cart/cart.selector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/directory/directory-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/directory/directory-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/directory/directory-selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/directory/directory-selector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/root-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/root-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/root-saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/root-saga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/data.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/shop/data.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop-action.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/shop/shop-action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/shop/shop-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop-saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/shop/shop-saga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop-selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/shop/shop-selector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/shop/shop-types.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/shop/shop-types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/store.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user-action-type.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/user/user-action-type.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user-action.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/user/user-action.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user-reducer.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/user/user-reducer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user-saga.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/user/user-saga.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/redux/user/user.selector.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/redux/user/user.selector.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reportWebVitals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/setupTests.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,7 +128,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="redux-saga" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,6 +136,10 @@
   <component name="ProjectId" id="1mHqhhCkPU2eMzDzZRvzNjhxpzu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
@@ -47,29 +156,19 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\public" />
-      <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\redux\shop" />
-      <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\pages\homepage" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\assert" />
       <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\firebase" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\client" />
+      <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\public" />
+      <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\redux\shop" />
+      <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\pages\homepage" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -86,6 +185,7 @@
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -108,7 +208,8 @@
       <workItem from="1612165519403" duration="13753000" />
       <workItem from="1612663288302" duration="9128000" />
       <workItem from="1613301194812" duration="3485000" />
-      <workItem from="1613439528375" duration="907000" />
+      <workItem from="1613439528375" duration="8567000" />
+      <workItem from="1619521639117" duration="4829000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'backup-original-working-with-stripe' into move-data-to-firebase&#10;&#10;# Conflicts:&#10;#&#9;.eslintcache&#10;#&#9;.idea/workspace.xml">
       <created>1611407469007</created>
@@ -128,20 +229,19 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -153,12 +253,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/cart-icon/cart-icon.jsx</url>
+          <url>file://$PROJECT_DIR$/client/src/components/cart-icon/cart-icon.jsx</url>
           <line>23</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/redux/shop/shop-reducer.js</url>
+          <url>file://$PROJECT_DIR$/client/src/redux/shop/shop-reducer.js</url>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
