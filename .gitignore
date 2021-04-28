@@ -26,3 +26,10 @@ yarn-error.log*
 # api key
 /src/firebase/*key.jsx
 /src/components/stripe-button/*key.jsx
+
+/node_modules
+/client
+/ecommerce.git
+.env
+.idea
+.eslintcache

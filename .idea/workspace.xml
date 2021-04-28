@@ -1,25 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3f9e0ab3-d002-4d8a-baec-376a8a7bcc23" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/collection-item/collection-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/collection-item/collection-item.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/directory/directory.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/directory/directory.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/menu-item/menu-item.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/menu-item/menu-item.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/preview-collection/preview-collection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/preview-collection/preview-collection.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/preview-collection/preview-collection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/preview-collection/preview-collection.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/category/category.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/category/category.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/homepage/homepage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/homepage/homepage.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/sign-in-sign-up/sign-in-sign-up.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/sign-in-sign-up/sign-in-sign-up.jsx" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +42,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="new-data-version-with-responsive" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -48,7 +55,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assert" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/contexts/collections" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -61,27 +68,19 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rainie\WebstormProjects\ecommerce\src\contexts\collections" />
+      <recent name="C:\Users\Rainie\WebstormProjects\ecommerce\src\firebase" />
+      <recent name="C:\Users\Rainie\WebstormProjects\ecommerce\src\components\stripe-button" />
+      <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\assert" />
+      <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\firebase" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Rainie\WebstormProjects\ecommerce\src" />
       <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\public" />
       <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\redux\shop" />
       <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\pages\homepage" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\assert" />
-      <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\firebase" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -126,17 +125,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="184" y="86" key="MergeDialog" timestamp="1619604942768">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="86" key="MergeDialog/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1619604942768" />
+    <state x="740" y="233" key="git4idea.branch.GitSmartOperationDialog" timestamp="1619604910667">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="233" key="git4idea.branch.GitSmartOperationDialog/-1920.0.1280.693/0.0.1920.1040@0.0.1920.1040" timestamp="1619604910667" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
