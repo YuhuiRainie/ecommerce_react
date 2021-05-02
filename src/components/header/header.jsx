@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useContext, useState} from 'react';
 import './header.scss'
 import {Link} from "react-router-dom";
 import { ReactComponent as Logo} from "../../assert/logo.svg";
@@ -8,17 +8,20 @@ import CartIcon from "../cart-icon/cart-icon";
 import CartDropdown from "../cart-dropdown/cart-dropdown";
 import {createStructuredSelector} from "reselect";
 import {selectHidden} from "../../redux/cart/cart.selector";
-import {selectCurrentUser} from "../../redux/user/user.selector";
 import {Hidden,Drawer,Button,Grid,Typography,List,ListItem,Divider,ListItemIcon} from "@material-ui/core";
 import DehazeIcon from '@material-ui/icons/Dehaze'
 import HomeIcon from '@material-ui/icons/Home';
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
 import AccountCircleIcon from '@material-ui/icons/AccountCircle';
+import CurrentUserContext from "../../contexts/current-user/current-user.context";
+import CartContext from "../../contexts/cart/cart.context";
 
 
-const Header = ({ currentUser,hidden }) => {
+const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = React.useState(false)
-
+    const currentUser = useContext(CurrentUserContext)
+    const [hidden,setHidden] = useState(true)
+    const toggleHidden = () => setHidden(!hidden)
     return (
         <div className='header'>
             <Link className='logo-container' to='/'>
@@ -41,7 +44,9 @@ const Header = ({ currentUser,hidden }) => {
                         SIGN IN
                     </Link>
                 )}
+                <CartContext.Provider value={{hidden,toggleHidden}}>
                 <CartIcon/>
+                </CartContext.Provider>
             </div>
             {hidden ? null : <CartDropdown/>}
             </Hidden>
@@ -93,7 +98,6 @@ const Header = ({ currentUser,hidden }) => {
     );
 }
 const mapStateToProps =createStructuredSelector ({
-    currentUser:selectCurrentUser,
     hidden:selectHidden
 });
 
