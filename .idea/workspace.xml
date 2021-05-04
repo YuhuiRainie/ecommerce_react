@@ -20,13 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f9e0ab3-d002-4d8a-baec-376a8a7bcc23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/contexts/cart/cart.context.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contexts/current-user/current-user.context.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintcache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/cart-icon/cart-icon.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/header/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/provider/cart.provider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/provider/cart.provider.jsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,18 +70,18 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Rainie\WebstormProjects\ecommerce\src\contexts\collections" />
-      <recent name="C:\Users\Rainie\WebstormProjects\ecommerce\src\firebase" />
-      <recent name="C:\Users\Rainie\WebstormProjects\ecommerce\src\components\stripe-button" />
-      <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\assert" />
-      <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\firebase" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Rainie\WebstormProjects\ecommerce\src" />
       <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\public" />
       <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\redux\shop" />
       <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\pages\homepage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Rainie\WebstormProjects\ecommerce\src\provider" />
+      <recent name="C:\Users\Rainie\WebstormProjects\ecommerce\src\contexts\collections" />
+      <recent name="C:\Users\Rainie\WebstormProjects\ecommerce\src\firebase" />
+      <recent name="C:\Users\Rainie\WebstormProjects\ecommerce\src\components\stripe-button" />
+      <recent name="C:\Users\yuhui liu\WebstormProjects\ecommerce\src\assert" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -122,7 +118,10 @@
       <workItem from="1610859234170" duration="13459000" />
       <workItem from="1611103906596" duration="32665000" />
       <workItem from="1619737583624" duration="3412000" />
-      <workItem from="1619997379862" duration="302000" />
+      <workItem from="1619997379862" duration="1850000" />
+      <workItem from="1620031018468" duration="1741000" />
+      <workItem from="1620086160373" duration="10000" />
+      <workItem from="1620091082139" duration="599000" />
     </task>
     <servers />
   </component>
@@ -146,10 +145,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1619741771665">
+    <state x="2660" y="275" key="FileChooserDialogImpl" timestamp="1620000705137">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2660" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040/-1920.0.1280.680@1920.0.1920.1040" timestamp="1619741771665" />
+    <state x="2660" y="275" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040/-1920.0.1280.680@1920.0.1920.1040" timestamp="1620000705137" />
     <state x="184" y="86" key="MergeDialog" timestamp="1619604942768">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
